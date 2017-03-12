@@ -1,0 +1,20 @@
+
+/* Global Styling */
+
+/* The body background goes outside of its dimension */
+
+header {
+  background-image: url("images/riverwp.jpg");
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  margin-bottom: 50px;
+  /*Adjusts for flexibility */
+  display: flex;
+  /* Stacks on top */
+  flex-direction: column;
+  /* Centers Vertically */
+  justify-content: center;
+  /* Centers Horizontally */
+  align-items: center;
+}
